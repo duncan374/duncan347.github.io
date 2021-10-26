@@ -115,6 +115,7 @@ img{
     text-align: center;
     border: 1px solid black;
     border-radius: 2rem;
+    padding: 6px;
 }
 
 .gallery{
@@ -168,4 +169,18 @@ textarea{
 
 .contacttext{
     text-align: center;
+}
+
+.affiliationlink{
+    color: white;
+    padding: 5px;
+    background-color: rgb(0, 124, 240);
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.affiliationlink:hover{
+    background-color: rgb(30, 49, 216);
+    border: 1px solid black;
+    color: yellow;
 }
