@@ -70,7 +70,6 @@ img{
 .navbar-link:hover{
     
     background-color: rgba(68, 0, 255, 0.452);
-    border: 1px solid black;
     color: yellow;
     border-radius: 10px;
     
