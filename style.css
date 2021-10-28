@@ -1,8 +1,8 @@
 body{
 
     background-image: url("https://explorewashingtonct.com/wp-content/uploads/2020/06/Pretty-Waramaug-2-1400x937.jpg");
-    background-size: 100%;
-    background-repeat: repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 
 }
 html{
@@ -34,7 +34,6 @@ img{
 
     width: 100%;
     
-
 }
 
 .navbar{
@@ -81,10 +80,6 @@ img{
         grid-template-columns: 1fr;
         grid-auto-rows: auto;
     }
-
-    body{
-        background-size: 100% 100%;
-    }
     
 }
 
@@ -96,6 +91,7 @@ img{
 #equipment{
 
     display: grid;
+
     grid-template-columns: repeat(6, 1fr);
     grid-auto-rows: auto;
     grid-gap: 1rem;
@@ -105,6 +101,7 @@ img{
 }
 
 .affiliationbox{
+
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -112,29 +109,37 @@ img{
 }
 
 .affiliation{
+
     width: 30%;
     height: 100%;
     text-align: center;
     border: 1px solid black;
     border-radius: 2rem;
     padding: 6px;
+
 }
 
 .gallery{
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+
 }
 
 .galleryimg{
+
     display: inline-block;
     margin: 1rem;
     text-align: center;
+
 }
 
 .galleryimg img{
+
     height: 250px;
     object-fit: contain;
+    
 }
 
 label{
