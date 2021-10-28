@@ -200,6 +200,12 @@ footer{
     height: max-content;
 }
 
+@media screen and (max-width:575px) {
+    #main {
+        flex-direction: column;
+    }
+}
+
 .cards {
     display: flex;
     flex-wrap: wrap;
