@@ -1,0 +1,16 @@
+.equipmentcard{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#equipment{
+
+    display: grid;
+
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+
+    text-align: center;
+
+}
