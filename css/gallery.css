@@ -1,0 +1,22 @@
+.gallery{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.galleryimg{
+
+    display: inline-block;
+    margin: 1rem;
+    text-align: center;
+
+}
+
+.galleryimg img{
+
+    height: 250px;
+    object-fit: contain;
+    
+}
