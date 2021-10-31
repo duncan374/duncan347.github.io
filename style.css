@@ -93,7 +93,7 @@ footer{
     margin-right:auto;
     margin-top:2em;
     max-width: fit-content;
-    flex: display;
+    display: flex;
 }
 
 .homepic {
