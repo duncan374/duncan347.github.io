@@ -85,83 +85,7 @@ img{
     
 }
 
-.affiliationbox{
 
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.affiliation{
-
-    width: 30%;
-    height: 100%;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 2rem;
-    padding: 6px;
-
-}
-
-.gallery{
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
-}
-
-.galleryimg{
-
-    display: inline-block;
-    margin: 1rem;
-    text-align: center;
-
-}
-
-.galleryimg img{
-
-    height: 250px;
-    object-fit: contain;
-    
-}
-
-label{
-    display: table-cell;
-    font-size: 1rem;
-    width: 10%;
-    text-align: center;
-    vertical-align: middle;
-}
-
-input{
-    display: table-cell;
-    height: 1.5rem;
-    width: 100%;
-    margin: 1rem;
-}
-
-textarea{
-    height: 20rem;
-    display: table-cell;
-    width: 100%;
-    margin: 1rem;
-}
-
-.formrow{
-    display: table-row;
-}
-
-.contactform{
-    display: table;
-    width: 60%;
-    margin: 0 auto;
-}
-
-.contacttext{
-    text-align: center;
-}
 footer{
     background-color: rgba(255, 255, 255, 0.753);
     border-radius: 5px;
@@ -170,20 +94,6 @@ footer{
     margin-top:2em;
     max-width: fit-content;
     flex: display;
-}
-
-.affiliationlink{
-    color: white;
-    padding: 5px;
-    background-color: rgb(0, 124, 240);
-    border-radius: 10px;
-    text-decoration: none;
-}
-
-.affiliationlink:hover{
-    background-color: rgb(30, 49, 216);
-    border: 1px solid black;
-    color: yellow;
 }
 
 .homepic {
