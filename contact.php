@@ -95,7 +95,7 @@
     if (mysqli_query($dbc, $sql)){
         echo '<script>alert("Your message has been submitted!")</script>';
     } else {
-        echo "Error: " . $sql . "<br>" . mysqli_error($dbc);
+        echo '<script>alert("ERROR: Request could not be completed.")</script>';
     }
 
     mysqli_close($dbc);
