@@ -37,7 +37,7 @@ textarea{
     box-shadow: 25px 15px 30px rgba(0, 0, 0, 0.425);
 }
 
-.form-control:focus, .form-control:hover{
+.form-control:focus{
 	box-shadow: none;
 	outline: none;
     transform: scale(1.1,1.1);
