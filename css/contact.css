@@ -1,23 +1,48 @@
-label{
-    display: table-cell;
-    font-size: 1rem;
-    width: 10%;
-    text-align: center;
-    vertical-align: middle;
-}
-
 input{
     display: table-cell;
     height: 1.5rem;
-    width: 100%;
-    margin: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
+input[type = submit]{
+    background-color: rgb(0, 124, 240);
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+    padding-bottom: 15px;
+    box-shadow: 25px 15px 30px rgba(0, 0, 0, 0.425);
+}
+
+input[type = submit]:hover{
+    transform: scale(1.5,1.5);
+	transition: all 0.3s;
+    outline: none;
+    box-shadow: none;
+}
 textarea{
     height: 20rem;
     display: table-cell;
     width: 100%;
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-control{
+    align-items: center;
+    border-style: none none solid none;
+	width: 100%;
+	font-size: 1.25em;
+	background-color: rgba(70, 82, 82, 0.253);
+    box-shadow: 25px 15px 30px rgba(0, 0, 0, 0.425);
+}
+
+.form-control:focus, .form-control:hover{
+	box-shadow: none;
+	outline: none;
+    transform: scale(1.1,1.1);
+	transition: all 0.3s;
+    
 }
 
 .formrow{

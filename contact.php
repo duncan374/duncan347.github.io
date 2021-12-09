@@ -44,25 +44,21 @@
       <p class="contacttext">For any questions or concerns you have, please email us or call us at 262-622-3449</p>
 
       <form action="contact.php" method="post" class="contactform">
-          <p class="formrow">
-          <label for="name">Your Name</label>
-          <input type="text" id="name" name="name">
-          </p>
-          <p class="formrow">
-          <label for="email">Your Email</label>
-          <input type="email" id="email" name="email">
-          </p>
-          <p class="formrow">
-          <label for="subject">Subject</label>
-          <input type="text" id="subject" name="subject">
-          </p>
-          <p class="formrow">
-          <label for="message">Message</label>
-          <textarea id="message" name="message"></textarea>
-          </p>
-          <p class="formrow">
-          <input type="submit" value="Submit">
-          </p>
+        <p class="formrow">
+        <input type="text" class= "form-control" id="name" name="name" placeholder = "Name">
+        </p>
+        <p class="formrow">
+        <input type="email" class= "form-control" id="email" name="email" placeholder = "Email Address">
+        </p>
+        <p class="formrow">
+        <input type="text" class= "form-control"  id="subject" name="subject" placeholder = "Subject">
+        </p>
+        <p class="formrow">
+        <textarea id="message" class= "form-control"  name="message" placeholder = "Enter Message..."></textarea>
+        </p>
+        <p class="formrow">
+        <input type="submit" value="Submit">
+        </p>
       </form>
 
     </div>
@@ -96,6 +92,6 @@
     } else {
         echo '<script>alert("ERROR: Request could not be completed.")</script>';
     }
-
+    
     mysqli_close($dbc);
 ?>
