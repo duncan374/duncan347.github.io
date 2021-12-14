@@ -12,6 +12,8 @@ header{
 
     background-color: rgb(6, 28, 105);
     border-radius: 15px;
+	position: sticky;
+	top: 0;
 
 }
 
@@ -47,7 +49,8 @@ img{
     border: 1px solid black;
     padding: 10px;
     box-shadow: 25px 15px 30px 0 rgb(0, 0, 0);
-
+	position: sticky;
+	top: 0;
 }
 
 .navbar-link{
@@ -119,6 +122,10 @@ footer{
         margin: 0px;
         flex: auto;
     }
+
+    header{
+        position: unset;
+    }
 }
 
 .cards {
@@ -164,3 +171,4 @@ footer {
 footer{
     padding: 10px;
 }
+
