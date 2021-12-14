@@ -122,6 +122,10 @@ footer{
         margin: 0px;
         flex: auto;
     }
+
+    header{
+        position: unset;
+    }
 }
 
 .cards {
