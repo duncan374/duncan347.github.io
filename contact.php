@@ -61,6 +61,7 @@
         </p>
       </form>
 
+      <a class="admin-btn" href="login.php">Admin Login</a>
     </div>
     
     <footer>
