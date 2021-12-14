@@ -58,3 +58,20 @@ textarea{
 .contacttext{
     text-align: center;
 }
+
+.admin-btn:hover{
+    font-size: 15px;
+    transition: all 0.3s;
+    background-color: rgb(200, 0, 0);
+    outline: none;
+    box-shadow: none;
+}
+
+.admin-btn{
+    background-color: red;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
