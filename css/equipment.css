@@ -16,6 +16,30 @@
 
 }
 
+.equipmentimage{
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.equipmentimage:hover{
+    width: 130%;
+    margin-left: -15%;
+    animation-name: highlighted;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes highlighted{
+    from{
+        transform: rotateZ(-15deg);
+    }
+    to{
+        transform: rotateZ(15deg);
+    }
+}
+
 @media screen and (max-width:575px){
     #equipment{
         grid-template-columns: repeat(3, 1fr);
